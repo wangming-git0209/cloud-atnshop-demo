@@ -6,18 +6,12 @@
 
 
         // Create Constant to Store, non Repeating code
-        define('SITEURL','http://localhost/food-order/');
-        define('LOCALHOST', 'localhost');
-        define('DB_USERNAME', 'root');
-        define('DB_PASSWORD', '');
-        define('DB_NAME','food-order');
+        define('hostname','ec2-3-216-221-31.compute-1.amazonaws.com');
+        define('db_name', 'db9vcah9l2f0o2');
+        define('db_user', 'iobzpzyfdhzbbj');
+        define('db_password', 'de33619a26a57f779f23635e8a48198a66130d164151cd855406cd7f50b0994d');
+        define('db_conn_string','host=hostname dbname=db_name uer=db_user password=db_password');
 
-
-
-
-        
-        $conn = mysqli_connect(LOCALHOST, DB_USERNAME ,DB_PASSWORD) or die(mysqli_error($conn)); // Database Connection
-        $db_select = mysqli_select_db($conn, DB_NAME) or die(mysqli_error($conn)); // Select Database 
 
 
 
