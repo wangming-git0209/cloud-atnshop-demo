@@ -8,7 +8,7 @@
 
         <div class="login">
             <h1 class="text-center">Login</h1>
-            <?php 
+            <!-- <?php 
                 if (isset($_SESSION['login'])) 
                 {
                     echo $_SESSION['login'];
@@ -20,7 +20,7 @@
                     echo $_SESSION['no-login-message'];
                     unset ($_SESSION['no-login-message']);
                 }
-            ?> 
+            ?>  -->
             <br> <br>
             <!-- Login form Start -->
             <form action="" method="POST">
